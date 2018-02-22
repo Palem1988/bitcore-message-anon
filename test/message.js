@@ -4,16 +4,16 @@ var chai = require('chai');
 var expect = chai.expect;
 var should = chai.should();
 
-var bitcore = require('bitcore-lib');
+var bitcore = require('bitcore-lib-zclassic');
 var Address = bitcore.Address;
 var Signature = bitcore.crypto.Signature;
 var Message = require('../');
 
 describe('Message', function() {
 
-  var address = 'n1ZCYg9YXtB5XCZazLxSmPDa8iwJRZHhGx';
+  var address = 't1gsePJZ6ojJYygj3PWMGJfojPUoMd5AVfU';
   var badAddress = 'mmRcrB5fTwgxaFJmVLNtaG8SV454y1E3kC';
-  var privateKey = bitcore.PrivateKey.fromWIF('cPBn5A4ikZvBTQ8D7NnvHZYCAxzDZ5Z2TSGW2LkyPiLxqYaJPBW4');
+  var privateKey = bitcore.PrivateKey.fromWIF('cPBn5A4ikZvBTQ8D7NnvHZYCAxzDZ5Z2TSGW2LkyPiLxqYaJPBW4'); //TODO fill out
   var text = 'hello, world';
   var signatureString = 'H/DIn8uA1scAuKLlCx+/9LnAcJtwQQ0PmcPrJUq90aboLv3fH5fFvY+vmbfOSFEtGarznYli6ShPr9RXwY9UrIY=';
 

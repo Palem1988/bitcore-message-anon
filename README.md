@@ -1,5 +1,5 @@
 <img src="http://bitcore.io/css/images/module-message.png" alt="bitcore message" height="35">
-# Bitcoin Message Verification and Signing for Bitcore
+# Zclassic Message Verification and Signing for Bitcore
 
 
 [![NPM Package](https://img.shields.io/npm/v/bitcore-message.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-message)
@@ -13,18 +13,18 @@ See [the main bitcore repo](https://github.com/bitpay/bitcore) for more informat
 ## Getting Started
 
 ```sh
-npm install bitcore-message
+npm install bitcore-message-zclassic
 ```
 
 ```sh
-bower install bitcore-message
+bower install bitcore-message-zclassic
 ```
 
 To sign a message:
 
 ```javascript
-var bitcore = require('bitcore-lib');
-var Message = require('bitcore-message');
+var bitcore = require('bitcore-lib-zclassic');
+var Message = require('bitcore-message-zclassic');
 
 var privateKey = bitcore.PrivateKey.fromWIF('cPBn5A4ikZvBTQ8D7NnvHZYCAxzDZ5Z2TSGW2LkyPiLxqYaJPBW4');
 var signature = Message('hello, world').sign(privateKey);
@@ -47,4 +47,3 @@ See [CONTRIBUTING.md](https://github.com/bitpay/bitcore/blob/master/CONTRIBUTING
 Code released under [the MIT license](https://github.com/bitpay/bitcore/blob/master/LICENSE).
 
 Copyright 2013-2015 BitPay, Inc. Bitcore is a trademark maintained by BitPay, Inc.
-

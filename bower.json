@@ -1,12 +1,13 @@
 {
-  "name": "bitcore-message",
-  "main": "./bitcore-message.min.js",
-  "version": "1.0.3",
-  "homepage": "https://github.com/bitpay/bitcore-message",
+  "name": "bitcore-message-zclassic",
+  "main": "./bitcore-message-zclassic.min.js",
+  "version": "1.0.3-zclassic",
+  "homepage": "https://github.com/z-classic/bitcore-message-zclassic",
   "authors": [
+    "The Zclassic Team",
     "BitPay"
   ],
-  "description": "Bitcoin Message Verification and Signing for Bitcore",
+  "description": "Zclassic Message Verification and Signing for Bitcore",
   "moduleType": [
     "globals"
   ],
