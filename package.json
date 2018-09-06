@@ -1,5 +1,5 @@
 {
-  "name": "bitcore-message-zclassic",
+  "name": "bitcore-message-anon",
   "version": "1.0.3-zclassic",
   "description": "Zclassic Messages for Bitcore",
   "author": "BitPay <dev@bitpay.com>",
@@ -22,7 +22,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/z-classic/bitcore-message-zclassic.git"
+    "url": "https://github.com/zclassicbitcore/bitcore-message-anon.git"
   },
   "dependencies": {
     "bitcore-lib-anon": "github:anonymousbitcoin/bitcore-lib-anon"
