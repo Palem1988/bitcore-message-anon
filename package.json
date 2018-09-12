@@ -25,7 +25,7 @@
     "url": "https://github.com/z-classic/bitcore-message-zclassic.git"
   },
   "dependencies": {
-    "bitcore-lib-anon": "github:anonymousbitcoin/bitcore-lib-anon"
+    "bitcore-lib-anon": "git://github.com/anonymousbitcoin/bitcore-lib-anon.git"
   },
   "devDependencies": {
     "bitcore-build-anon": "github:anonymousbitcoin/bitcore-build-anon",
