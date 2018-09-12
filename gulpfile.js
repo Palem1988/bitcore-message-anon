@@ -1,7 +1,7 @@
 'use strict';
 
 var gulp = require('gulp');
-var bitcoreTasks = require('bitcore-build-zclassic');
+var bitcoreTasks = require('bitcore-build-anon');
 
 bitcoreTasks('message');
 
