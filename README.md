@@ -13,18 +13,18 @@ See [the main bitcore repo](https://github.com/bitpay/bitcore) for more informat
 ## Getting Started
 
 ```sh
-npm install bitcore-message-zclassic
+npm install bitcore-message-anon
 ```
 
 ```sh
-bower install bitcore-message-zclassic
+bower install bitcore-message-anon
 ```
 
 To sign a message:
 
 ```javascript
-var bitcore = require('bitcore-lib-zclassic');
-var Message = require('bitcore-message-zclassic');
+var bitcore = require('bitcore-lib-anon');
+var Message = require('bitcore-message-anon');
 
 var privateKey = bitcore.PrivateKey.fromWIF('cPBn5A4ikZvBTQ8D7NnvHZYCAxzDZ5Z2TSGW2LkyPiLxqYaJPBW4');
 var signature = Message('hello, world').sign(privateKey);

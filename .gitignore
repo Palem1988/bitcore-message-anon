@@ -5,6 +5,8 @@ node_modules
 npm-debug.log
 bitcore-message-zclassic.js
 bitcore-message-zclassic.min.js
+bitcore-message-anon.js
+bitcore-message-anon.min.js
 tests.js
 
 report

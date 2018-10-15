@@ -1,13 +1,13 @@
 {
-  "name": "bitcore-message-zclassic",
-  "main": "./bitcore-message-zclassic.min.js",
-  "version": "1.0.3-zclassic",
-  "homepage": "https://github.com/z-classic/bitcore-message-zclassic",
+  "name": "bitcore-message-anon",
+  "main": "./bitcore-message-anon.min.js",
+  "version": "1.0.3-anon",
+  "homepage": "https://github.com/z-classic/bitcore-message-anon",
   "authors": [
-    "The Zclassic Team",
+    "The Anon Team",
     "BitPay"
   ],
-  "description": "Zclassic Message Verification and Signing for Bitcore",
+  "description": "Anon Message Verification and Signing for Bitcore",
   "moduleType": [
     "globals"
   ],
