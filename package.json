@@ -1,6 +1,6 @@
 {
   "name": "bitcore-message-anon",
-  "version": "1.0.3-anon",
+  "version": "1.0.0",
   "description": "Anon Messages for Bitcore",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
@@ -25,10 +25,10 @@
     "url": "https://github.com/anonymousbitcoin/bitcore-message-anon.git"
   },
   "dependencies": {
-    "bitcore-lib-anon": "git://github.com/anonymousbitcoin/bitcore-lib-anon.git#de99b17a653c4ca3ffff1ea77d0e8158a7abdca8"
+    "bitcore-lib-anon": "^1.0.3"
   },
   "devDependencies": {
-    "bitcore-build-anon": "github:anonymousbitcoin/bitcore-build-anon",
+    "bitcore-build-anon": "^1.0.0",
     "brfs": "^1.3.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10"
